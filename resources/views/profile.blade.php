@@ -5,15 +5,11 @@
         style="background-image: url('https://automoto.id/wp-content/uploads/2024/11/NFS-x-BMW_4-min.jpg.webp'); background-size: cover; background-position: center;">
 
         <div class="relative w-full max-w-md mx-4 md:mx-auto">
-            <!-- SIM Card Container -->
             <div class="bg-gray-100 rounded-lg shadow-2xl border border-gray-300 overflow-hidden relative">
-
-                <!-- Watermark -->
                 <div class="absolute inset-0 opacity-10 pointer-events-none">
                     <img src="map/pngwing.com.png" alt="Indonesia Map" class="w-full h-full object-cover">
                 </div>
 
-                <!-- Header Merah -->
                 <div class="bg-red-600 text-white py-2 px-3 sm:px-4 flex justify-between items-center">
                     <div class="flex items-center gap-1 sm:gap-2">
                         <img src="https://upload.wikimedia.org/wikipedia/commons/6/6e/Lambang_Polri.png" alt="Emblem"
@@ -26,9 +22,7 @@
                     <div class="text-right text-sm sm:text-base font-bold">DRIVING LICENSE</div>
                 </div>
 
-                <!-- Konten -->
                 <div class="p-3 sm:p-4 flex flex-col md:flex-row gap-3 sm:gap-4">
-                    <!-- Kiri: Foto dan Tanda Tangan -->
                     <div class="md:w-1/3 flex flex-col items-center relative z-10">
                         <div
                             class="bg-gray-800 w-24 h-32 sm:w-28 sm:h-36 border-2 border-gray-400 rounded overflow-hidden hover:scale-105 transition-transform duration-200">
@@ -42,28 +36,25 @@
                         <div class="mt-2 text-[10px] sm:text-xs text-gray-600">21-01-2024</div>
                     </div>
 
-                    <!-- Kanan: Info -->
                     <div class="md:w-2/3 relative">
-                        <!-- Kelas SIM & Nomor -->
                         <div class="absolute top-0 right-0 text-right">
                             <div class="text-2xl sm:text-3xl font-extrabold text-red-600">A</div>
                             <div class="text-[10px] sm:text-xs font-semibold text-gray-700 mt-1">0123-4567-891011</div>
                         </div>
 
-                        <!-- Detail Pribadi -->
                         <div class="mt-6 md:mt-0 text-xs sm:text-sm text-gray-800">
                             <ol class="list-decimal pl-4 sm:pl-5 space-y-0.5 sm:space-y-1 font-medium">
                                 <li class="font-bold uppercase tracking-wide">
                                     {{ ($username) }}</li>
-                                <li>JAKARTA, 17-08-1945</li>
+                                <li>SURABAYA, 17-08-1945</li>
                                 <li>O - PREDATOR</li>
                                 <li>
                                     JL SWADAYA 1 RT 14/09<br>
                                     PEJATEN TIMUR PASAR MINGGU<br>
-                                    JAKARTA SELATAN
+                                    SURABAYA BARAT
                                 </li>
                                 <li>PELAJAR/MHS</li>
-                                <li>METRO JAYA</li>
+                                <li>BONEK MANIA</li>
                             </ol>
                         </div>
                     </div>
